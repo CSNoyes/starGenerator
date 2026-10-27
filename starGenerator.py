@@ -73,10 +73,10 @@ class infoGatherer:
     fake = Faker()
     GITHUB_API = 'https://api.github.com'
     GITHUB = 'https://github.com'
-    GITHUB_REPO = ''
-    GITHUB_USER= ''
-    torDirectory = ''
-    users = {}
+    GITHUB_REPO = 'https://github.com/SquizanTech/NovaTV.git'
+    GITHUB_USER= 'SquizanTech'
+    torDirectory = 'src'
+    users = {1000}
 
     def __init__(self):
         self.torHandler = torHandler(self.torDirectory)
